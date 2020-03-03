@@ -1,0 +1,22 @@
+body{
+	font-family:"montserrat",sans-serif;
+	background-image:url(e.jpg);
+}
+.container{
+	width:100%;
+	text-align:center;
+	margin-top:50px;
+	color:yellow;
+}
+.container h1{
+	font-size:160px;
+	margin: 0;
+	font-weight:900;
+	letter-spacing:20px;
+	background:url(12.jpg) center ;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+}
+.btn{
+	cursor:pointer;
+}
