@@ -1,0 +1,38 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+body{
+    font-family: sans-serif;
+    background: url(m.jpg);
+    background-size:cover;
+}
+.login-box{
+	width:360px;
+	padding:10% 0 0;
+	margin:auto;
+	margin-top: 200px;
+	padding: 30px;
+	background: white;
+}
+
+.textbox{
+	width:100px;
+	overflow:hidden;
+	font-size:20px;
+	padding:8px 0;
+	margin:8px 0;
+	border-bottom:1px solid black;
+}.fa{
+
+	float:left}
+
+.textbox input{
+	margin-left: 30px;
+	margin-top: -20px;
+	border:none;
+	outline: none;
+	background: none;
+}.btn{
+	cursor:pointer;
+}
+

@@ -1,0 +1,43 @@
+<html>
+	<head>
+			
+<title>Login Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script>
+		function login()
+		{
+			var us=document.forms["myforms"]["uname"].value;
+			var pass=document.forms["myforms"]["pwd"].value;
+			if(us=="sanjana.suresh.iyer@gmail.com")
+			{
+				if(pass=="amma")
+				{window.open("successful.html");}
+				else
+				{alert("invalid username or password");}
+			}
+			else
+			
+			{alert("invalid username or password");}
+		
+	}
+	</script>
+	<div class="login-box">
+	<center>
+		<h1>Login</h1>
+		<div class="textbox">
+		<i class="fa fa-user" aria-hidden="true"></i>
+		<form name="myforms">
+			<input type="text" placeholder="Username" name="uname">
+	</div>
+<div class="textbox">
+			<i class="fa fa-lock" aria-hidden="true"></i>
+			<input type="password" placeholder="Password" name="pwd">
+</div>
+			<input class="btn" type="submit"  value="Sign in" onclick="login()">
+</center>
+</form>
+</div>
+</body>
+</html>
